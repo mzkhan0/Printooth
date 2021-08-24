@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:name="com.mazenrashed.example.ApplicationClass">
-        <activity android:name="com.mazenrashed.example.MainActivity">
+        <activity android:name="com.mazenrashed.example.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
